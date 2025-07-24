@@ -1,11 +1,12 @@
 import Counter from "./components/Counter";
 import {render} from "react-dom";
 import App from "./App";
+import {BrowserRouter} from "react-router-dom";
 
 
 render(
-    <div>
+    <BrowserRouter>
         <App />
-    </div>,
+    </BrowserRouter>,
     document.getElementById('root')
 )
